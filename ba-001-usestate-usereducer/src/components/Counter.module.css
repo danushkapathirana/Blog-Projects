@@ -1,0 +1,36 @@
+.wrapper {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+}
+
+.wrapper h1 {
+    font-size: 6rem;
+}
+
+.action_buttons__wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.action_buttons__wrapper button {
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 50%;
+    outline: none;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.action_buttons__wrapper button:hover {
+    background-color: black;
+    color: white;
+}
